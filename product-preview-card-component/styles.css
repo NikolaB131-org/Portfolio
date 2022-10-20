@@ -4,18 +4,18 @@
 }
 
 body {
-  display: flex;
+  background-color: hsl(30, 38%, 92%);
+  color: hsl(228, 12%, 48%);
   height: 100vh;
   padding: 0 20px;
-  background-color: hsl(30, 38%, 92%);
   font-size: 1.125rem; /* 18px */
   font-family: 'Montserrat';
-  color: hsl(228, 12%, 48%);
+  display: flex;
 }
 
 .product-card {
-  margin: auto;
   display: flex;
+  margin: auto;
   max-width: 800px;
   max-height: 600px;
 }
