@@ -154,9 +154,6 @@ body {
   border-color: #fc751a;
   background-color: #fc751a;
   background-image: url(./check.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90%;
 }
 
 .strength-block {
