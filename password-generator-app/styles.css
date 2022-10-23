@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'JetBrains Mono';
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 500;
 }
 
@@ -15,7 +15,7 @@ body {
 
 .password-generator {
   margin: auto;
-  max-width: 500px;
+  width: 500px;
 }
 
 .password-generator__title {
@@ -35,6 +35,7 @@ body {
 }
 
 .password-block__password {
+  color: #ededed;
   background-color: transparent;
   width: 90%;
   border: none;
@@ -64,14 +65,14 @@ body {
   padding: 1.5em;
 }
 
-.slider-title {
+.slider-length {
   margin-bottom: 2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.slider-title__number {
+.slider-length__number {
   color: #fc751a;
   font-size: 1.5rem;
 }
@@ -212,4 +213,29 @@ body {
   width: 0.9em;
   height: 0.9em;
   margin-left: 4px;
+}
+
+@media (max-width: 575.98px) {
+  html {
+    font-size: 0.875rem;
+  }
+
+  .password-block,
+  .settings-block,
+  .strength-block {
+    padding: 1em;
+  }
+
+  .password-block__password,
+  .strength-block__strength-level {
+    font-size: 1.25rem;
+  }
+
+  .settings-block__list div {
+    margin-right: 10px;
+  }
+
+  .strength-block__strength-level-wrapper div {
+    width: 5px;
+  }
 }
