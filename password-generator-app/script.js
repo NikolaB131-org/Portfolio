@@ -68,7 +68,7 @@ document.querySelector('.settings-block__generate-button').onclick = function() 
   let uppercaseCharacters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
   let lowercaseCharacters = 'abcdefghijklmnopqrstuvwxyz'.split('');
   let numbersCharacters = '0123456789'.split('');
-  let symbolsCharacters = '!@#$%^&*()-_+=;:,./?`~[]{}^\'"<>~.'.split('');
+  let symbolsCharacters = '!@#$%^&*()-_+=;:,./?~[]{}^\'"<>~.'.split('');
   let availableCharacters = [
     ...includeUppercase ? uppercaseCharacters : [],
     ...includeLowercase ? lowercaseCharacters : [],
