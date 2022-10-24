@@ -8,7 +8,7 @@ document.querySelector('.slider-wrapper__slider').oninput = function() {
 
 // Strength level
 let checkCounter = 0;
-let strengthBlockChildren = [...document.querySelector('.strength-block__strength-level-wrapper').children]
+let strengthBlockChildren = Array.from(document.querySelectorAll('.strength-block__strength-level-wrapper > div'));
 let strengthBlockText = document.querySelector('.strength-block__strength-level');
 let includeUppercase = false;
 let includeLowercase = false;
@@ -32,8 +32,8 @@ document.querySelector('.settings-block__list').oninput = function(event) {
   if (event.target.checked) {
     checkCounter++;
   } else {
-    strengthBlockChildren[checkCounter].style.backgroundColor = '';
-    strengthBlockChildren[checkCounter].style.borderColor = '#ededed';
+    strengthBlockChildren[checkCounter - 1].style.backgroundColor = '';
+    strengthBlockChildren[checkCounter - 1].style.borderColor = '#ededed';
     checkCounter--;
   }
 
@@ -56,7 +56,7 @@ document.querySelector('.settings-block__list').oninput = function(event) {
       color = '#d1240f';
       break;
   }
-  for (let i = 1; i < checkCounter + 1; i++) {
+  for (let i = 0; i < checkCounter; i++) {
     strengthBlockChildren[i].style.backgroundColor = color;
     strengthBlockChildren[i].style.borderColor = color;
   }
