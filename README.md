@@ -1,6 +1,8 @@
 <h1 align="center">&#127794;Портфолио&#127794;</h1>
 
 ### Стек технологий:
+![React](https://img.shields.io/badge/React[basic]-%23323330.svg?style=for-the-badge&logo=React)
+![Redux](https://img.shields.io/badge/Redux[basic]-%23323330.svg?style=for-the-badge&logo=Redux&logoColor=%23764ABC)
 ![TypeScript](https://img.shields.io/badge/typescript[basic]-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=%23007ACC)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -13,5 +15,6 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ### Проекты:
+- [Тестовое задание на стажировку в Авито](https://github.com/NikolaB131/Avito-internship-project) [ TypeScript, React, React Router, Redux ]
 - [Карточка предварительного просмотра продукта](https://nikolab131.github.io/Portfolio/product-preview-card-component) [ HTML, CSS, Адаптивность ]
 - [Генератор паролей](https://nikolab131.github.io/Portfolio/password-generator-app) [ JS, HTML, CSS, Адаптивность ]
