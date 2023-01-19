@@ -16,5 +16,5 @@
 
 ### Проекты:
 - [Тестовое задание на стажировку в Авито](https://github.com/NikolaB131/Avito-internship-project) [ TypeScript, React, React Router, Redux ]
-- [Карточка предварительного просмотра продукта](https://nikolab131.github.io/Portfolio/product-preview-card-component) [ HTML, CSS, Адаптивность ]
-- [Генератор паролей](https://nikolab131.github.io/Portfolio/password-generator-app) [ JS, HTML, CSS, Адаптивность ]
+- [Карточка предварительного просмотра продукта](https://nikolab131.github.io/Product-preview-card-component) [ HTML, CSS, Адаптивность ]
+- [Генератор паролей](https://nikolab131.github.io/Password-generator-app) [ JS, HTML, CSS, Адаптивность ]
