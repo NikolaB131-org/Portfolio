@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import SkillsCard from './components/SkillsCard';
 import starImg from './assets/star.png';
 import arrowImg from './assets/arrow.svg';
@@ -12,15 +13,17 @@ function App() {
     }
   }
 
-  const arrow = document.getElementsByClassName(s.arrow)[0] as HTMLImageElement;
-  window.onscroll = function() {
-    if (window.scrollY % window.innerHeight > 150 ||
-        window.scrollY == document.documentElement.scrollHeight - window.innerHeight) {
-      arrow.classList.add(s.hidden);
-    } else {
-      arrow.classList.remove(s.hidden);
+  useEffect(() => {
+    const arrow = document.getElementsByClassName(s.arrow)[0] as HTMLImageElement;
+    window.onscroll = function() {
+      if (window.scrollY % window.innerHeight > 150 ||
+          window.scrollY == document.documentElement.scrollHeight - window.innerHeight) {
+        arrow.classList.add(s.hidden);
+      } else {
+        arrow.classList.remove(s.hidden);
+      }
     }
-  }
+  }, [])
 
   return (
     <>
