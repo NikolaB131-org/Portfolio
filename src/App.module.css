@@ -1,3 +1,4 @@
+/* Decorative */
 .line1 {
   position: absolute;
   top: 13vw;
@@ -6,6 +7,7 @@
   background-color: #3E3D3D;
   z-index: -1;
 }
+
 .line2 {
   position: fixed;
   top: 0;
@@ -15,6 +17,7 @@
   background-color: #3E3D3D;
   z-index: -1;
 }
+
 .star {
   position: absolute;
   top: 13vw;
@@ -25,6 +28,22 @@
   z-index: -1;
 }
 
+.arrow {
+  position: fixed;
+  bottom: 40px;
+  left: 50vw;
+  transform: translateX(-50%);
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 400ms;
+}
+
+.arrow.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Intro section */
 .intro {
   margin-left: 16.15vw;
   padding-top: 18.33vw;
@@ -61,14 +80,7 @@
   color: #B6B6B6;
 }
 
-.arrow {
-  position: fixed;
-  bottom: 40px;
-  left: 50vw;
-  transform: translateX(-50%);
-  cursor: pointer;
-}
-
+/* Skills section */
 .skills {
   margin-left: 16.15vw;
   padding-top: 13.59vw;
@@ -79,4 +91,16 @@
 .skills__header {
   font-size: 2.5rem;
   margin-bottom: 6.51vw;
+}
+
+.skills__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.skills__divider {
+  width: 3px;
+  height: auto;
+  background-color: #3E3D3D;
 }
