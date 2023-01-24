@@ -1,11 +1,10 @@
 /* Decorative */
 .line1 {
   position: absolute;
-  top: 13vw;
+  top: 23.33vh;
   width: 100%;
   height: 3px;
   background-color: #3E3D3D;
-  z-index: -1;
 }
 
 .line2 {
@@ -15,19 +14,18 @@
   width: 3px;
   height: 100vh;
   background-color: #3E3D3D;
-  z-index: -1;
 }
 
 .star {
   position: absolute;
-  top: 13vw;
+  top: 23.33vh;
   right: 13vw;
   transform: translate(47%, -47%);
   width: 47px;
   height: 47px;
-  z-index: -1;
 }
 
+/* Arrow */
 .arrow {
   position: fixed;
   bottom: 40px;
@@ -44,11 +42,15 @@
 }
 
 /* Intro section */
-.intro {
-  margin-left: 16.15vw;
-  padding-top: 18.33vw;
-  width: 56.25vw;
+.intro-section {
+  display: flow-root; /* Disables margin collapse */
   height: 100vh;
+  background-color: #222222;
+}
+
+.intro {
+  width: 56.25vw;
+  margin: 32.59vh 0 0 16.15vw;
 }
 
 .intro__greeting-start {
@@ -62,7 +64,7 @@
 }
 
 .intro__specialization {
-  font-family: Consolas;
+  font-family: 'Consolas';
   font-size: 1.5rem;
   font-weight: 400;
   color: #FCA311;
@@ -70,6 +72,7 @@
 }
 
 .intro__description {
+  font-size: 1.5rem;
   line-height: 160%;
   margin-bottom: 50px;
 }
@@ -81,16 +84,20 @@
 }
 
 /* Skills section */
-.skills {
-  margin-left: 16.15vw;
-  padding-top: 13.59vw;
-  width: 51.56vw;
+.skills-section {
+  display: flex;
   height: 100vh;
+  background-color: #262626;
+}
+
+.skills {
+  width: 51.56vw;
+  margin: auto 0 auto 16.15vw;
 }
 
 .skills__header {
   font-size: 2.5rem;
-  margin-bottom: 6.51vw;
+  margin-bottom: 125px;
 }
 
 .skills__container {
@@ -103,4 +110,27 @@
   width: 3px;
   height: auto;
   background-color: #3E3D3D;
+}
+
+/* Projects section */
+.projects-section {
+  display: flow-root; /* Disables margin collapse */
+  min-height: 100vh;
+  background-color: #222222;
+}
+
+.projects {
+  margin: 16.66vh 0 50px 16.15vw;
+}
+
+.projects__header {
+  font-size: 2.5rem;
+  margin-bottom: 11.57vh;
+}
+
+.projects__container {
+  width: 67vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
 }

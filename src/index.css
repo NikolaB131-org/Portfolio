@@ -6,12 +6,5 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
   color: #FFFFFF;
-  background-image: linear-gradient(180deg, #222222 50%, #262626 50%);
-  background-size: auto 200vh;
-}
-
-p {
-  font-size: 1.5rem;
 }
