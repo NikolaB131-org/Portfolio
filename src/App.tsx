@@ -66,8 +66,7 @@ function App() {
               previewImg={Avito_internship_project_screenshot}
               linkGitHub="https://github.com/NikolaB131/Avito-internship-project"
               header="Клон Hacker News">
-              Тестовое задание для отбора на стажировку в Авито.<br />
-              Клиент запрашивает информацию с локального сервера, а тот уже запрашивает с API Hacker News
+              Тестовое задание для отбора на стажировку в Авито. Клиент запрашивает информацию с локального сервера, а тот уже запрашивает с API Hacker News
             </ProjectCard>
             <ProjectCard
               previewImg={Password_generator_app_screenshot}
