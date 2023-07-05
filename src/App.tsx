@@ -4,9 +4,10 @@ import ProjectCard from './components/ProjectCard';
 import styles from './App.module.css';
 import starImg from './assets/star.png';
 import arrowImg from './assets/arrow.svg';
-import Avito_internship_project_screenshot from './assets/projects_screenshots/Avito-internship-project_1280x720.png';
-import Password_generator_app_screenshot from './assets/projects_screenshots/Password-generator-app_1280x720.jpg';
-import Product_preview_card_component_screenshot from './assets/projects_screenshots/Product-preview-card-component_1280x720.jpg';
+import soundwave_frontend_screenshot from './assets/projects_screenshots/Soundwave-frontend.jpg';
+import avito_internship_project_screenshot from './assets/projects_screenshots/Avito-internship-project_1280x720.png';
+import password_generator_app_screenshot from './assets/projects_screenshots/Password-generator-app_1280x720.jpg';
+import product_preview_card_component_screenshot from './assets/projects_screenshots/Product-preview-card-component_1280x720.jpg';
 
 function App() {
   function onArrowClick() { // scroll animation
@@ -51,13 +52,19 @@ function App() {
           <h2 className={styles.projects__header}>Проекты</h2>
           <div className={styles.projects__container}>
             <ProjectCard
-              previewImg={Avito_internship_project_screenshot}
+              previewImg={soundwave_frontend_screenshot}
+              linkGitHub="https://github.com/serguun42/SoundWave/tree/master/frontend"
+              header="Фронтенд для сервиса музыки">
+              Проект для университета, делался на коленке за 3 дня :) Бэкенд делал другой разработчик
+            </ProjectCard>
+            <ProjectCard
+              previewImg={avito_internship_project_screenshot}
               linkGitHub="https://github.com/NikolaB131/Avito-internship-project"
               header="Клон Hacker News">
               Тестовое задание для отбора на стажировку в Авито. Клиент запрашивает информацию с локального сервера, а тот уже запрашивает с API Hacker News
             </ProjectCard>
             <ProjectCard
-              previewImg={Password_generator_app_screenshot}
+              previewImg={password_generator_app_screenshot}
               linkDemo="https://nikolab131.github.io/Password-generator-app/"
               linkGitHub="https://github.com/NikolaB131/Password-generator-app"
               header="Генератор паролей">
@@ -65,7 +72,7 @@ function App() {
               Адаптивность присутствует
             </ProjectCard>
             <ProjectCard
-              previewImg={Product_preview_card_component_screenshot}
+              previewImg={product_preview_card_component_screenshot}
               linkDemo="https://nikolab131.github.io/Product-preview-card-component/"
               linkGitHub="https://github.com/NikolaB131/Product-preview-card-component"
               header="Карточка предварительного просмотра продукта">
