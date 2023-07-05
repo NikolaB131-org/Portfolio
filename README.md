@@ -15,6 +15,7 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ### Проекты:
+- [Фронтенд для сервиса музыки](https://github.com/serguun42/SoundWave/tree/master/frontend) [ TypeScript, React, Redux, Redux Toolkit, React Router ]
 - [Тестовое задание на стажировку в Авито](https://github.com/NikolaB131/Avito-internship-project) [ TypeScript, React, React Router, Redux ]
 - [Карточка предварительного просмотра продукта](https://nikolab131.github.io/Product-preview-card-component) [ HTML, CSS, Адаптивность ]
 - [Генератор паролей](https://nikolab131.github.io/Password-generator-app) [ JS, HTML, CSS, Адаптивность ]
