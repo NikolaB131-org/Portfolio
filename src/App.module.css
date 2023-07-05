@@ -1,7 +1,7 @@
 /* Decorative */
 .line1 {
   position: absolute;
-  top: 23.33vh;
+  top: 120px;
   width: 100%;
   height: 3px;
   background-color: #3E3D3D;
@@ -10,7 +10,7 @@
 .line2 {
   position: fixed;
   top: 0;
-  right: 13vw;
+  right: 250px;
   width: 3px;
   height: 100vh;
   background-color: #3E3D3D;
@@ -18,8 +18,8 @@
 
 .star {
   position: absolute;
-  top: 23.33vh;
-  right: 13vw;
+  top: 120px;
+  right: 250px;
   transform: translate(47%, -47%);
   width: 47px;
   height: 47px;
@@ -45,11 +45,11 @@
 .intro-section {
   display: flow-root; /* Disables margin collapse */
   height: 100vh;
-  background-color: #222222;
+  background-color: #262626;
 }
 
 .intro {
-  width: 56.25vw;
+  width: 1100px;
   margin: 32.59vh 0 0 16.15vw;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .intro__specialization {
-  font-family: 'Consolas';
+  font-family: 'Fira Mono', monospace;
   font-size: 1.5rem;
   font-weight: 400;
   color: #FCA311;
@@ -81,35 +81,6 @@
   font-family: 'Open Sans';
   font-size: 1.125rem;
   color: #B6B6B6;
-}
-
-/* Skills section */
-.skills-section {
-  display: flex;
-  height: 100vh;
-  background-color: #262626;
-}
-
-.skills {
-  width: 51.56vw;
-  margin: auto 0 auto 16.15vw;
-}
-
-.skills__header {
-  font-size: 2.5rem;
-  margin-bottom: 125px;
-}
-
-.skills__container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 100px;
-}
-
-.skills__divider {
-  width: 3px;
-  height: auto;
-  background-color: #3E3D3D;
 }
 
 /* Projects section */
@@ -129,8 +100,38 @@
 }
 
 .projects__container {
-  width: 67vw;
+  width: 1300px;
   display: flex;
   flex-wrap: wrap;
   gap: 100px;
+}
+
+
+/* Skills section */
+.skills-section {
+  display: flex;
+  height: 100vh;
+  background-color: #262626;
+}
+
+.skills {
+  width: 1000px;
+  margin: auto 0 auto 16.15vw;
+}
+
+.skills__header {
+  font-size: 2.5rem;
+  margin-bottom: 125px;
+}
+
+.skills__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.skills__divider {
+  width: 3px;
+  height: auto;
+  background-color: #3E3D3D;
 }

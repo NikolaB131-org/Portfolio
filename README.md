@@ -1,13 +1,13 @@
 <h1 align="center"><a href="https://nikolab131.github.io/Portfolio/">&#127794;Портфолио&#127794;</a></h1>
 
 ### Стек технологий:
-![React](https://img.shields.io/badge/React[basic]-%23323330.svg?style=for-the-badge&logo=React)
-![Redux](https://img.shields.io/badge/Redux[basic]-%23323330.svg?style=for-the-badge&logo=Redux&logoColor=%23764ABC)
-![TypeScript](https://img.shields.io/badge/typescript[basic]-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=%23007ACC)
+![React](https://img.shields.io/badge/React-%23323330.svg?style=for-the-badge&logo=React)
+![Redux](https://img.shields.io/badge/Redux-%23323330.svg?style=for-the-badge&logo=Redux&logoColor=%23764ABC)
+![TypeScript](https://img.shields.io/badge/typescript-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=%23007ACC)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![BEM](https://img.shields.io/badge/BEM[basic]-%2317a1e6.svg?style=for-the-badge&logo=BEM&logoColor=white)
+![BEM](https://img.shields.io/badge/BEM-%2317a1e6.svg?style=for-the-badge&logo=BEM&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-%23ffd95c.svg?style=for-the-badge&logo=python&logoColor=%233776AB)
 
 ### Использую:
