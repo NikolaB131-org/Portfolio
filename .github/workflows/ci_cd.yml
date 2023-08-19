@@ -28,7 +28,7 @@ jobs:
         run: npm run build
       - name: Copy
         run: |
-          mkdir -p ${{env.path}}
+          mkdir -p ${{env.tempPath}}
           cp -r dist/* ${{env.tempPath}}
 
   deploy:
