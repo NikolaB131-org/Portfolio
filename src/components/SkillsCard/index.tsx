@@ -1,13 +1,17 @@
-import s from './styles.module.css';
+import styles from './SkillsCard.module.css';
 
-function SkillsCard(props: {data: (string | number)[]}) {
-  const data = props.data;
+type Props = {
+  data: (string | number)[];
+};
+
+export function SkillsCard({ data }: Props) {
   const items = [];
   for (let i = 0; i < data.length; i += 2) {
     let colored = [];
     for (let j = 0; j < 5; j++) {
-      if (j < data[i + 1]) {
-        colored.push(<li key={j} className={s.enabled}></li>);
+      const enabledCircles = data[i + 1] as number;
+      if (j < enabledCircles) {
+        colored.push(<li key={j} className={styles.enabled}></li>);
       } else {
         colored.push(<li key={j}></li>)
       }
@@ -16,10 +20,8 @@ function SkillsCard(props: {data: (string | number)[]}) {
   }
 
   return (
-    <ul className={s.container}>
+    <ul className={styles.container}>
       {items}
     </ul>
   );
 }
-
-export default SkillsCard;

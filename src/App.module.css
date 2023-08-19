@@ -27,13 +27,15 @@
 
 /* Arrow */
 .arrow {
+  width: 30px;
+  height: auto;
   position: fixed;
   bottom: 40px;
   left: 50vw;
   transform: translateX(-50%);
   cursor: pointer;
-  opacity: 1;
-  transition: opacity 400ms;
+  opacity: 0.9;
+  transition: opacity 0.4s linear;
 }
 
 .arrow.hidden {
@@ -49,7 +51,7 @@
 }
 
 .intro {
-  width: 1100px;
+  max-width: 1100px;
   margin: 32.59vh 0 0 16.15vw;
 }
 
@@ -67,7 +69,7 @@
   font-family: 'Fira Mono', monospace;
   font-size: 1.5rem;
   font-weight: 400;
-  color: #FCA311;
+  color: var(--accent-color);
   margin-bottom: 50px;
 }
 
@@ -100,7 +102,7 @@
 }
 
 .projects__container {
-  width: 1300px;
+  max-width: 1300px;
   display: flex;
   flex-wrap: wrap;
   gap: 100px;

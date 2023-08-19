@@ -49,8 +49,8 @@
   height: 45px;
   border: none;
   border-radius: 15px;
-  background-color: #FCA311;
-  color: #000000;
+  background-color: var(--accent-color);
+  color: #000;
   font-size: 1.125rem;
   font-weight: 700;
   text-decoration: none;

@@ -30,6 +30,6 @@
 }
 
 .container > li > ul > li.enabled {
-  background-color: #FCA311;
+  background-color: var(--accent-color);
   border: none;
 }

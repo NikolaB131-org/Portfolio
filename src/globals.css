@@ -1,3 +1,7 @@
+:root {
+  --accent-color: #FCA311;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,5 +10,5 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #FFFFFF;
+  color: #FFF;
 }
