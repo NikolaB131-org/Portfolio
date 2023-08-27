@@ -26,10 +26,12 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Clean previous files
+        run: rm -rf ${{env.tempPath}}
       - name: Copy
         run: |
           mkdir -p ${{env.tempPath}}
-          cp -r dist/* ${{env.tempPath}}
+          cp -r dist/. ${{env.tempPath}}
 
   deploy:
     needs: build
@@ -37,7 +39,9 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      - name: Save
+      - name: Clean previous files
+        run: rm -rf ${{env.path}}
+      - name: Copy
         run: |
           mkdir -p ${{env.path}}
-          cp -r ${{env.tempPath}}/* ${{env.path}}
+          cp -r ${{env.tempPath}}/. ${{env.path}}
