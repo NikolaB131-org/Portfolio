@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-import { SkillsCard } from './components/SkillsCard';
 import { ProjectCard } from './components/ProjectCard';
 import starPng from './assets/star.png';
 import arrowSvg from './assets/arrow.svg';
@@ -88,18 +87,6 @@ export function App() {
               Адаптивность присутствует
             </ProjectCard>
           </div>
-        </section>
-      </div>
-
-      <div className={styles['skills-section']}>
-        <section className={styles.skills}>
-          <h2 className={styles.skills__header}>Навыки</h2>
-          <div className={styles.skills__container}>
-            <SkillsCard data={['React', 4, 'Redux', 3, 'TypeScript', 3]} />
-            <div className={styles.skills__divider}></div>
-            <SkillsCard data={['JavaScript', 4, 'HTML', 4, 'CSS', 3]} />
-          </div>
-          <SkillsCard data={['Git', 3, 'Unix', 4, 'Python', 2]} />
         </section>
       </div>
     </>

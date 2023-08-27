@@ -107,33 +107,3 @@
   flex-wrap: wrap;
   gap: 100px;
 }
-
-
-/* Skills section */
-.skills-section {
-  display: flex;
-  height: 100vh;
-  background-color: #262626;
-}
-
-.skills {
-  width: 1000px;
-  margin: auto 0 auto 16.15vw;
-}
-
-.skills__header {
-  font-size: 2.5rem;
-  margin-bottom: 125px;
-}
-
-.skills__container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 100px;
-}
-
-.skills__divider {
-  width: 3px;
-  height: auto;
-  background-color: #3E3D3D;
-}
