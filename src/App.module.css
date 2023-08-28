@@ -86,14 +86,11 @@
 }
 
 /* Projects section */
-.projects-section {
+.projects {
   display: flow-root; /* Disables margin collapse */
   min-height: 100vh;
   background-color: #222222;
-}
-
-.projects {
-  margin: 16.66vh 0 50px 16.15vw;
+  padding: 16.66vh 0 50px 16.15vw;
 }
 
 .projects__header {
