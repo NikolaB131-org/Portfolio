@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://nikolab131.xyz">&#127794;Портфолио&#127794;</a></h1>
+<h1 align="center"><a href="https://nikolab131.xyz">Портфолио</a></h1>
 
 ### Стек технологий:
 ![Next.js](https://img.shields.io/badge/Next.js-%23323330.svg?style=for-the-badge&logo=nextdotjs)
