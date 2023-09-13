@@ -4,6 +4,7 @@ import starPng from './assets/star.png';
 import arrowSvg from './assets/arrow.svg';
 import armageddon_2023_screenshot from './assets/projects_screenshots/Armageddon-2023.png';
 import message_editor_screenshot from './assets/projects_screenshots/Message-editor.png';
+import simple_histogram_screenshot from './assets/projects_screenshots/Simple-histogram.jpg';
 import soundwave_frontend_screenshot from './assets/projects_screenshots/Soundwave-frontend.jpg';
 import avito_internship_project_screenshot from './assets/projects_screenshots/Avito-internship-project_1280x720.png';
 import password_generator_app_screenshot from './assets/projects_screenshots/Password-generator-app_1280x720.jpg';
@@ -72,6 +73,13 @@ export function App() {
             linkGitHub="https://github.com/NikolaB131-org/Message-editor"
             header="Message editor">
             Редактор сообщений с поддержкой переменных и гибких вложенных условий. Данные хранится в виде дерева и сериализуются в JSON
+          </ProjectCard>
+          <ProjectCard
+            previewImg={simple_histogram_screenshot}
+            linkDemo="https://histogram.nikolab131.xyz/"
+            linkGitHub="https://github.com/NikolaB131-org/Simple-histogram"
+            header="Гистограмма">
+            Компонент гистограмма на Next.js (с красивыми анимациями и тестами)
           </ProjectCard>
           <ProjectCard
             previewImg={soundwave_frontend_screenshot}
