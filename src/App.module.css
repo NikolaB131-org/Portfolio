@@ -53,6 +53,8 @@
 .intro {
   max-width: 1100px;
   margin: 32.59vh 0 0 16.15vw;
+  position: relative;
+  z-index: 2;
 }
 
 .intro__greeting-start {
