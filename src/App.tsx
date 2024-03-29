@@ -52,7 +52,7 @@ export function App() {
           <div className={styles['intro__greeting-start']}>&lt;Привет&gt; Меня зовут</div>
           <h1 className={styles.intro__name}>Николай Баланцев</h1>
           <h3 className={styles.intro__specialization}>Front-end разработчик</h3>
-          <p className={styles.intro__description}>Мне 20 лет. Обучаюсь в РТУ МИРЭА на 4 курсе по специальности "Программная инженерия".<br />В свободное время изучал удивительный мир веб-разработки.<br />Прошел стажировку в команде международного такси в Яндексе.</p>
+          <p className={styles.intro__description}>Мне 21 год. Обучаюсь в РТУ МИРЭА на 4 курсе по специальности "Программная инженерия".<br />В свободное время изучал удивительный мир веб-разработки.<br />Прошел стажировку в команде международного такси в Яндексе.</p>
           <div className={styles['intro__greeting-end']}>&lt;/Привет&gt;</div>
         </section>
       </div>
