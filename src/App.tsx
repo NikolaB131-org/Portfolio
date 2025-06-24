@@ -50,9 +50,9 @@ export function App() {
       <div className={styles['intro-section']}>
         <section className={styles.intro}>
           <div className={styles['intro__greeting-start']}>&lt;Привет&gt; Меня зовут</div>
-          <h1 className={styles.intro__name}>Николай Баланцев</h1>
-          <h3 className={styles.intro__specialization}>Front-end разработчик</h3>
-          <p className={styles.intro__description}>Мне 21 год. Обучаюсь в РТУ МИРЭА на 4 курсе по специальности "Программная инженерия".<br />В свободное время изучал удивительный мир веб-разработки.<br />Прошел стажировку в команде международного такси в Яндексе.</p>
+          <h1 className={styles.intro__name}>Коля 👋</h1>
+          <h3 className={styles.intro__specialization}>Backend разработчик</h3>
+          <p className={styles.intro__description}>Работаю в Авито Golang разработчиком. До Авито успел поработать в стартапе и Яндексе. Получил диплом в РТУ МИРЭА по специальности "Программная инженерия".</p>
           <div className={styles['intro__greeting-end']}>&lt;/Привет&gt;</div>
         </section>
       </div>
