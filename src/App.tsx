@@ -61,6 +61,12 @@ export function App() {
         <h2 className={styles.projects__header}>Проекты</h2>
         <div className={styles.projects__container}>
           <ProjectCard
+            previewImg=""
+            linkGitHub="https://github.com/NikolaB131/banner-service"
+            header="banner-service">
+            Тестовое задание на стажировку в Авито.<br />Golang, Redis, PostgreSQL, Docker, JWT
+          </ProjectCard>
+          <ProjectCard
             previewImg={armageddon_2023_screenshot}
             linkDemo="https://armageddon.nikolab131.xyz/"
             linkGitHub="https://github.com/NikolaB131-org/Armageddon-2023"
