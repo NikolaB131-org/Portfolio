@@ -61,19 +61,16 @@ export function App() {
         <h2 className={styles.projects__header}>Проекты</h2>
         <div className={styles.projects__container}>
           <ProjectCard
-            previewImg=""
             linkGitHub="https://github.com/NikolaB131/nmap-vulners-service"
             header="nmap-vulners-service">
             Интересное тестовое задание - сервис который позволяет сканировать сервера по ip на уязвимости с помощью nmap<br />Golang, gRPC, Docker, e2e тесты
           </ProjectCard>
           <ProjectCard
-            previewImg=""
             linkGitHub="https://github.com/NikolaB131/banner-service"
             header="banner-service">
             Тестовое задание на стажировку в Авито.<br />Golang, Redis, PostgreSQL, Docker, JWT
           </ProjectCard>
           <ProjectCard
-            previewImg=""
             linkGitHub="https://github.com/NikolaB131-org/Logistics-app-backend"
             header="logistics-app-backend">
             Backend для дипломной работы, состоит из 4 микросервисов, который общаются между собой по gRPC и RabbitMQ. В серсиве auth используется Keycloak, а также настроен observability (Grafana, Prometheus, InfluxDB)<br />Golang, PostgreSQL, RabbitMQ, Docker, JWT
