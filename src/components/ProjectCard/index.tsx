@@ -2,7 +2,7 @@ import githubSvg from '../../assets/github.svg';
 import styles from './ProjectCard.module.css';
 
 type Props = {
-  previewImg: string;
+  previewImg?: string;
   linkDemo?: string;
   linkGitHub?: string;
   header: string;
@@ -12,7 +12,7 @@ type Props = {
 export function ProjectCard({ previewImg, linkDemo, linkGitHub, header, children }: Props) {
   return (
     <div className={styles.container}>
-      <img className={styles['preview-image']} src={previewImg} alt="Картинка проекта" />
+      {previewImg !== undefined && <img className={styles['preview-image']} src={previewImg} alt="Картинка проекта" />}
       <div className={styles.content}>
         <h3 className={styles.content__header}>{header}</h3>
         <hr className={styles.content__divider} />
