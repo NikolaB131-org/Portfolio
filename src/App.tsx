@@ -72,7 +72,8 @@ export function App() {
           </ProjectCard>
           <ProjectCard
             linkGitHub="https://github.com/NikolaB131-org/Logistics-app-backend"
-            header="logistics-app-backend">
+            header="logistics-app-backend"
+            descriptionFontSizeRem={0.9}>
             Backend для дипломной работы, состоит из 4 микросервисов, который общаются между собой по gRPC и RabbitMQ. В серсиве auth используется Keycloak, а также настроен observability (Grafana, Prometheus, InfluxDB)<br />Golang, PostgreSQL, RabbitMQ, Docker, JWT
           </ProjectCard>
           <ProjectCard
