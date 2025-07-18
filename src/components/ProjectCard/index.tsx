@@ -10,7 +10,7 @@ type Props = {
   children: React.ReactNode;
 };
 
-export function ProjectCard({ previewImg, linkDemo, linkGitHub, header, children }: Props) {
+export function ProjectCard({ previewImg, linkDemo, linkGitHub, descriptionFontSizeRem, header, children }: Props) {
   return (
     <div className={styles.container}>
       {previewImg !== undefined && <img className={styles['preview-image']} src={previewImg} alt="Картинка проекта" />}
