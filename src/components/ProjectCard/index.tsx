@@ -17,7 +17,7 @@ export function ProjectCard({ previewImg, linkDemo, linkGitHub, descriptionFontS
       <div className={styles.content}>
         <h3 className={styles.content__header}>{header}</h3>
         <hr className={styles.content__divider} />
-        <p className={styles.content__description} style={descriptionFontSizeRem ?? {fontSize: `${descriptionFontSizeRem}rem`}}>{children}</p>
+        <p className={styles.content__description} style={descriptionFontSizeRem ? {fontSize: `${descriptionFontSizeRem}rem`} : undefined}>{children}</p>
         <div className={styles.content__buttons}>
           {linkDemo && (
             <a className={styles.content__buttons__demo} href={linkDemo} target="_blank" role="button">
